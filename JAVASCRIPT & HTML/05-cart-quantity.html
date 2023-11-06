@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cart-Quantity</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-compatible" content="IE=Edge">
+	<meta name="width=width-device, initial scale = 0.1">
+	<Link rel="Stylesheet" href="Stylesheet.css">
+</head>
+<body>
+  <button onclick="
+
+  console.log(`Cart Quantity: ${CartQuantity}`);
+
+    ">Show Quantity</button>
+  <button onclick="
+
+  CartQuantity = CartQuantity + 1;
+  console.log(`Cart Quantity: ${CartQuantity}`);
+
+  ">Add to Cart</button>
+  <button onclick="
+  CartQuantity = CartQuantity + 2;
+  console.log(`Cart Quantity: ${CartQuantity}`);
+
+
+  ">+2</button>
+  <button onclick="
+  CartQuantity = CartQuantity +3;
+  console.log(`Cart Quantity: ${CartQuantity}`)
+
+  ">+3</button>
+  <button onclick="
+
+  CartQuantity = 0;
+  console.log(`Cart was reste`)
+  console.log(`Cart Quantity: ${CartQuantity}`)
+
+  ">Reset Cart</button>
+
+  <button onclick="
+  CartQuantity =CartQuantity -1;
+  console.log(`CartQuantity: ${CartQuantity}`)
+
+  ">Remove From Cart</button>
+	<script>
+    let CartQuantity = 0;
+		
+	</script>
+</body>
+</html>
